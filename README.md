@@ -20,7 +20,8 @@ new Vue({
   template: `
   <div>Value: {{$format.centimeters(rawValue)}}</div>
   <m-input
-    :value="$mask.centimeters"
+    :value="rawValue"
+    :mask="$mask.centimeters"
     @input="rawValue = $unmask.centimeters($event) />
   `,
   data() {
