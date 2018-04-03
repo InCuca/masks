@@ -1,2 +1,2 @@
 export * from './masks';
-export {default as VueTextMasks} from 'integrations/vue'
+export {default as VueTextMasks} from './integrations/vue'
