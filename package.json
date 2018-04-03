@@ -5,7 +5,9 @@
   "main": "dist/text-mask-collection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -34,5 +36,8 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-node-resolve": "^3.3.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
