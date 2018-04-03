@@ -9,8 +9,12 @@
             "last 2 versions",
             "not ie <= 8"
           ]
-        }
+        },
+        "modules": false
       }
     ]
+  ],
+  "plugins": [
+    "external-helpers"
   ]
 }
