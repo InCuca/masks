@@ -1,4 +1,4 @@
-# masks
+# text-mask-collection
 Repository of pre-made input masks
 
 To be used with [text-mask](https://github.com/text-mask/text-mask) with support for Vanilla, Vue, Angular, React and more.

@@ -1,5 +1,5 @@
 {
-  "name": "masks",
+  "name": "text-mask-collection",
   "version": "1.0.0",
   "description": "Repository of pre-made input masks",
   "main": "index.js",
