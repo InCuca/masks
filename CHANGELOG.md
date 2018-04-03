@@ -1,3 +1,14 @@
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/InCuca/masks/compare/v1.1.4...v1.1.5) (2018-04-03)
+
+
+### Bug Fixes
+
+* **package:** fix build ([6ae54ca](https://github.com/InCuca/masks/commit/6ae54ca))
+* **package:** fix mian file ([efec01f](https://github.com/InCuca/masks/commit/efec01f))
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/InCuca/masks/compare/v1.1.3...v1.1.4) (2018-04-03)
 
