@@ -1,3 +1,13 @@
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/InCuca/masks/compare/v1.1.3...v1.1.4) (2018-04-03)
+
+
+### Bug Fixes
+
+* **package:** fix build settings ([59c1577](https://github.com/InCuca/masks/commit/59c1577))
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/InCuca/masks/compare/v1.1.2...v1.1.3) (2018-04-03)
 
