@@ -1,5 +1,4 @@
-import format from './helpers/format'
-import {mask} from './phoneBr'
+import {format, mask} from './phoneBr'
 
 describe('phoneBr mask', () => {
   it('should mask correctly', () => {
