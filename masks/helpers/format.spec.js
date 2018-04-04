@@ -1,13 +1,22 @@
-// export default function (rawValue, mask) {
-//   if (!rawValue) return '';
-//   const masked = core.conformToMask(rawValue, mask(rawValue));
-//   if (masked.someCharsRejected) throw Error('error formating value');
-//   return masked.conformedValue;
-// }
 import format from './format.js';
 
 describe('format function', () => {
+  const testMask = val => [/\d/, 'n' + val]
+
   it('returns nothing if it receives empty string', () => {
-    expect(format('', null)).toEqual('')
+    expect(format('', testMask)).toEqual('')
+  })
+
+  it('should format a string with mask', () => {
+    expect(format('1', testMask)).toEqual('1n1');
+  })
+
+  it('should return empty string if null is given', () => {
+    expect(format(null, testMask)).toEqual('');
+  })
+
+  it('should throw an error if string was not correctly formated', () => {
+    expect(() => format('a', testMask))
+      .toThrowError('error formating value')
   })
 })
