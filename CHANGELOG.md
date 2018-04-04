@@ -1,3 +1,21 @@
+<a name="1.1.9"></a>
+## [1.1.9](https://github.com/InCuca/masks/compare/v1.1.8...v1.1.9) (2018-04-04)
+
+
+### Bug Fixes
+
+* **build:** add missing namedExport ([3284c25](https://github.com/InCuca/masks/commit/3284c25))
+* **vue:** fix tests ([24676f6](https://github.com/InCuca/masks/commit/24676f6))
+
+
+### Features
+
+* **format:** add more tests to format ([4161106](https://github.com/InCuca/masks/commit/4161106))
+* **format:** add tests ([781fd0d](https://github.com/InCuca/masks/commit/781fd0d))
+* **travis:** add config ([16ab0c0](https://github.com/InCuca/masks/commit/16ab0c0))
+
+
+
 <a name="1.1.8"></a>
 ## [1.1.8](https://github.com/InCuca/masks/compare/v1.1.7...v1.1.8) (2018-04-04)
 
