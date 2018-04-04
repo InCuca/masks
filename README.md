@@ -1,4 +1,6 @@
 # text-mask-collection
+[![Travis](https://img.shields.io/travis/InCuca/text-mask-collection/master.svg)](https://travis-ci.org/InCuca/text-mask-collection/branches)
+
 Repository of pre-made input masks
 
 To be used with [text-mask](https://github.com/text-mask/text-mask) with support for Vanilla, Vue, Angular, React and more.
