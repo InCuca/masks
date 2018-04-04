@@ -1,3 +1,19 @@
+<a name="1.1.10"></a>
+## [1.1.10](https://github.com/InCuca/masks/compare/v1.1.9...v1.1.10) (2018-04-04)
+
+
+### Bug Fixes
+
+* **phoneBr:** fix mask value ([d86a416](https://github.com/InCuca/masks/commit/d86a416))
+
+
+### Features
+
+* **cnpj:** add cnpj and fix phoneBr tests ([5201a45](https://github.com/InCuca/masks/commit/5201a45))
+* **masks:** add cep ([31b1581](https://github.com/InCuca/masks/commit/31b1581))
+
+
+
 <a name="1.1.9"></a>
 ## [1.1.9](https://github.com/InCuca/masks/compare/v1.1.8...v1.1.9) (2018-04-04)
 
