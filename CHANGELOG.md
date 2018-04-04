@@ -1,3 +1,13 @@
+<a name="1.1.12"></a>
+## [1.1.12](https://github.com/InCuca/masks/compare/v1.1.11...v1.1.12) (2018-04-04)
+
+
+### Bug Fixes
+
+* **masks:** add missing mask ([bd2da21](https://github.com/InCuca/masks/commit/bd2da21))
+
+
+
 <a name="1.1.11"></a>
 ## [1.1.11](https://github.com/InCuca/masks/compare/v1.1.10...v1.1.11) (2018-04-04)
 
