@@ -4,10 +4,9 @@
   "description": "Repository of pre-made input masks",
   "main": "dist/text-mask-collection.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jest",
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "pretest": "npm run build"
+    "dev": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -38,7 +37,8 @@
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "vue": "^2.5.16"
   },
   "files": [
     "dist"
