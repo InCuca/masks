@@ -12,7 +12,11 @@ export default {
   },
   plugins: [
     resolve(),
-    commonjs(),
+    commonjs({
+      namedExports: {
+        'node_modules/text-mask-core/dist/textMaskCore.js': ['conformToMask']
+      }
+    }),
     babel({
       presets: [
         [
