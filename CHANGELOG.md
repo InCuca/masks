@@ -1,3 +1,13 @@
+<a name="1.1.7"></a>
+## [1.1.7](https://github.com/InCuca/masks/compare/v1.1.6...v1.1.7) (2018-04-04)
+
+
+### Features
+
+* **masks:** add phoneBr mask ([aff54a5](https://github.com/InCuca/masks/commit/aff54a5))
+
+
+
 <a name="1.1.6"></a>
 ## [1.1.6](https://github.com/InCuca/masks/compare/v1.1.5...v1.1.6) (2018-04-04)
 
