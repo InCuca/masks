@@ -7,7 +7,7 @@ export default {
     Vue.prototype.$unmask = {};
     Vue.prototype.$format = {};
 
-    for (maskName in masks) {
+    for (let maskName in masks) {
       Vue.prototype.$masks[maskName] = masks[maskName].mask;
       Vue.prototype.$unmask[maskName] = masks[maskName].unmask;
       Vue.prototype.$format[maskName] = masks[maskName].format;

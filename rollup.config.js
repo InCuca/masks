@@ -14,6 +14,16 @@ export default {
     resolve(),
     commonjs(),
     babel({
+      presets: [
+        [
+          "env",
+          {
+            modules: false
+          }
+        ]
+      ],
+      plugins: ["external-helpers"],
+      babelrc: false,
       exclude: 'node_modules/**' // only transpile our source code
     })
   ]
