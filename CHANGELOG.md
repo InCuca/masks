@@ -1,3 +1,14 @@
+<a name="1.1.8"></a>
+## [1.1.8](https://github.com/InCuca/masks/compare/v1.1.7...v1.1.8) (2018-04-04)
+
+
+### Bug Fixes
+
+* **vue:** fix path ([abc2269](https://github.com/InCuca/masks/commit/abc2269))
+* **vue:** fix vue integration logic ([e8f1ae3](https://github.com/InCuca/masks/commit/e8f1ae3))
+
+
+
 <a name="1.1.7"></a>
 ## [1.1.7](https://github.com/InCuca/masks/compare/v1.1.6...v1.1.7) (2018-04-04)
 
