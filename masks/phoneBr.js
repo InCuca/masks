@@ -9,7 +9,7 @@ import {
 export const suffix = ' cm';
 
 export const mask = (rawValue) => {
-  if (String(rawValue).length > 10) {
+  if (String(rawValue).length < 11) {
     return ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]
   }
 
