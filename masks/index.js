@@ -19,6 +19,7 @@ export default {
   dollars,
   kilograms,
   meters,
+  phoneBr,
   cep,
   cnpj,
 }
