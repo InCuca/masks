@@ -1,3 +1,13 @@
+<a name="1.1.6"></a>
+## [1.1.6](https://github.com/InCuca/masks/compare/v1.1.5...v1.1.6) (2018-04-04)
+
+
+### Bug Fixes
+
+* **index:** export default ([b0f8602](https://github.com/InCuca/masks/commit/b0f8602))
+
+
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/InCuca/masks/compare/v1.1.4...v1.1.5) (2018-04-03)
 
