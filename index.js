@@ -1,4 +1,7 @@
 import masks from './masks';
-export * from './integrations/vue';
+import VueTextMasks from './integrations/vue';
 
-export default masks;
+export default {
+  masks,
+  VueTextMasks,
+};
