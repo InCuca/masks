@@ -1,4 +1,4 @@
-import {masks} from '../index.js';
+import masks from '../masks';
 
 // To be used with text-mask/text-mask
 export default {
