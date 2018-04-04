@@ -8,6 +8,8 @@ import * as dollars from './dollars.js';
 import * as kilograms from './kilograms.js';
 import * as meters from './meters.js';
 import * as phoneBr from './phoneBr.js';
+import * as cep from './cep.js';
+import * as cnpj from './cnpj.js';
 
 export default {
   areacm3,
@@ -17,5 +19,6 @@ export default {
   dollars,
   kilograms,
   meters,
-  phoneBr,
+  cep,
+  cnpj,
 }
