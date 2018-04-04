@@ -7,6 +7,7 @@ import * as decimalNumber from './decimalNumber.js';
 import * as dollars from './dollars.js';
 import * as kilograms from './kilograms.js';
 import * as meters from './meters.js';
+import * as phoneBr from './phoneBr.js';
 
 export default {
   areacm3,
@@ -16,4 +17,5 @@ export default {
   dollars,
   kilograms,
   meters,
+  phoneBr,
 }
