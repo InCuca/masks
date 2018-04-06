@@ -1,3 +1,14 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/InCuca/masks/compare/v1.2.0...v1.3.0) (2018-04-06)
+
+
+### Bug Fixes
+
+* **helpers:** fix spread operator not compatible ([dc0428b](https://github.com/InCuca/masks/commit/dc0428b))
+* **usd:** rename dollars to used and fix mask ([ce42d1d](https://github.com/InCuca/masks/commit/ce42d1d))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/InCuca/masks/compare/v1.1.12...v1.2.0) (2018-04-06)
 
