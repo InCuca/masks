@@ -14,6 +14,7 @@ export const mask = createNumberMask({
   thousandsSeparatorSymbol,
   allowDecimal: true,
   decimalSymbol,
+  requireDecimal: true,
 });
 
 export function unmask(masked) {
