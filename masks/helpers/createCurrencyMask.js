@@ -3,14 +3,13 @@ import createNumberMask from 'text-mask-addons/dist/createNumberMask';
 export default function createCurrencyMask(opts = {}) {
   const decimalSymbol = opts.decimalSymbol || '.';
   const decimalsRegex = new RegExp(`\\${decimalSymbol}([0-9]{1,2})`);
-  const numberMask = createNumberMask({
+  const numberMask = createNumberMask(Object.assign({
     prefix: '$',
     includeThousandsSeparator: true,
     allowDecimal: true,
     requireDecimal: true,
     allowLeadingZeroes: false,
-    ...opts,
-  });
+  }, opts));
 
   return rawValue => {
     const mask = numberMask(rawValue);
