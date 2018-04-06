@@ -32,6 +32,8 @@ export function unmask(masked) {
   return rawValue;
 }
 
-export function format(value) {
-  return doFormat(value, mask);
+export function format(value, fmtMask = mask) {
+  let fmtValue = String(value);
+  fmtValue = fmtValue.replace('.', decimalSymbol);
+  return doFormat(fmtValue, fmtMask, true);
 }

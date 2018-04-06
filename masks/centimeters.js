@@ -1,9 +1,9 @@
 import createNumberMask from 'text-mask-addons/dist/createNumberMask';
-import doFormat from './helpers/format';
 import {
   thousandsSeparatorSymbol,
   decimalSymbol,
   unmask as unmaskDecimal,
+  format as doFormat
 } from './decimalNumber';
 
 export const suffix = ' cm';

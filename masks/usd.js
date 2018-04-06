@@ -1,9 +1,9 @@
 import createCurrencyMask from './helpers/createCurrencyMask';
-import doFormat from './helpers/format';
 import {
   thousandsSeparatorSymbol,
   decimalSymbol,
   unmask as unmaskDecimal,
+  format as doFormat,
 } from './decimalNumber';
 
 export const prefix = 'USD ';
@@ -29,7 +29,5 @@ export function unmask(masked) {
 }
 
 export function format(value) {
-  let fmtValue = String(value);
-  fmtValue = fmtValue.replace('.', decimalSymbol);
-  return doFormat(fmtValue, mask, true);
+  return doFormat(value, mask, true);
 }

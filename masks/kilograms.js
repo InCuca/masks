@@ -1,9 +1,9 @@
 import createNumberMask from 'text-mask-addons/dist/createNumberMask';
-import doFormat from './helpers/format';
 import {
   thousandsSeparatorSymbol,
   decimalSymbol,
   unmask as unmaskDecimal,
+  format as doFormat
 } from './decimalNumber';
 
 export const suffix = ' kg';
@@ -25,5 +25,5 @@ export function unmask(masked) {
 }
 
 export function format(value) {
-  return doFormat(value, mask);
+  return doFormat(value, mask, true);
 }
