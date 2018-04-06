@@ -19,4 +19,9 @@ describe('format function', () => {
     expect(() => format('a', testMask))
       .toThrowError('error formating value')
   })
+
+  it('should not throw an error if string was not correctly formated and ignoreFail is true', () => {
+    expect(() => format('a', testMask, true))
+      .not.toThrowError('error formating value')
+  })
 })
