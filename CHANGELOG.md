@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/InCuca/masks/compare/v1.3.0...v1.4.0) (2018-04-06)
+
+
+### Bug Fixes
+
+* **masks:** fix format should come from decimalNumber, add missing tests ([45e92ca](https://github.com/InCuca/masks/commit/45e92ca))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/InCuca/masks/compare/v1.2.0...v1.3.0) (2018-04-06)
 

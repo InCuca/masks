@@ -1,6 +1,6 @@
 {
   "name": "text-mask-collection",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Repository of pre-made input masks",
   "main": "dist/text-mask-collection.js",
   "scripts": {
