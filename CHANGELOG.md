@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/InCuca/masks/compare/v1.1.12...v1.2.0) (2018-04-06)
+
+
+### Features
+
+* **dollars:** add decimal zeros ([dd6d63c](https://github.com/InCuca/masks/commit/dd6d63c))
+
+
+
 <a name="1.1.12"></a>
 ## [1.1.12](https://github.com/InCuca/masks/compare/v1.1.11...v1.1.12) (2018-04-04)
 
