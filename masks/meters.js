@@ -1,20 +1,12 @@
-import createNumberMask from 'text-mask-addons/dist/createNumberMask';
+import createNumberSuffix from './helpers/createNumberSuffix';
 import {
-  thousandsSeparatorSymbol,
-  decimalSymbol,
   unmask as unmaskDecimal,
   format as doFormat,
 } from './decimalNumber';
 
 export const suffix = ' m';
 
-export const mask = createNumberMask({
-  prefix: '',
-  suffix,
-  thousandsSeparatorSymbol,
-  allowDecimal: true,
-  decimalSymbol,
-});
+export const mask = createNumberSuffix(suffix);
 
 export function unmask(masked) {
   const rawValue = masked.replace(

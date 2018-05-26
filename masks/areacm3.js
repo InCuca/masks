@@ -1,20 +1,12 @@
-import createNumberMask from 'text-mask-addons/dist/createNumberMask';
+import createNumberSuffix from './helpers/createNumberSuffix';
 import {
-  thousandsSeparatorSymbol,
-  decimalSymbol,
   unmask as unmaskDecimal,
   format as doFormat,
 } from './decimalNumber';
 
 export const suffix = ' cm³';
 
-export const mask = createNumberMask({
-  prefix: '',
-  suffix,
-  thousandsSeparatorSymbol,
-  allowDecimal: false,
-  decimalSymbol,
-});
+export const mask = createNumberSuffix(suffix, false);
 
 export function unmask(masked) {
   const rawValue = masked.replace(
