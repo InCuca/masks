@@ -1,5 +1,6 @@
 # text-mask-collection
-[![Travis](https://img.shields.io/travis/InCuca/text-mask-collection/master.svg)](https://travis-ci.org/InCuca/text-mask-collection/branches)
+[![Travis](https://img.shields.io/travis/InCuca/text-mask-collection/master.svg)](https://travis-ci.org/InCuca/text-mask-collection/branches) [![Code Climate](https://img.shields.io/codeclimate/coverage/InCuca/text-mask-collection.svg)](https://codeclimate.com/github/InCuca/text-mask-collection/test_coverage)
+[![Code Climate](https://img.shields.io/codeclimate/maintainability/InCuca/text-mask-collection.svg)](https://codeclimate.com/github/InCuca/loopback-chai/maintainability)
 
 Repository of pre-made input masks
 

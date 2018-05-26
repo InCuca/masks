@@ -4,7 +4,7 @@
   "description": "Repository of pre-made input masks",
   "main": "dist/text-mask-collection.js",
   "scripts": {
-    "test": "npx jest",
+    "test": "npx jest --coverage",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
