@@ -5,7 +5,7 @@ import {
 } from '../decimalNumber';
 
 export default function (suffix, allowDecimal = true) {
-  createNumberMask({
+  return createNumberMask({
     prefix: '',
     suffix,
     thousandsSeparatorSymbol,
