@@ -19,7 +19,7 @@ export const mask = createNumberMask({
 export function unmask(masked) {
   const rawValue = masked.replace(
     new RegExp(suffix),
-    ''
+    '',
   );
   return unmaskDecimal(rawValue);
 }

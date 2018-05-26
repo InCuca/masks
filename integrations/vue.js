@@ -7,10 +7,10 @@ export default {
     Vue.prototype.$unmask = {};
     Vue.prototype.$format = {};
 
-    for (let maskName in masks) {
+    Object.keys(masks).forEach((maskName) => {
       Vue.prototype.$masks[maskName] = masks[maskName].mask;
       Vue.prototype.$unmask[maskName] = masks[maskName].unmask;
       Vue.prototype.$format[maskName] = masks[maskName].format;
-    }
+    });
   },
 };

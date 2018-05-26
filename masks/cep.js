@@ -1,7 +1,6 @@
-import createNumberMask from 'text-mask-addons/dist/createNumberMask';
 import doFormat from './helpers/format';
 
-export function mask(rawValue) {
+export function mask() {
   return [
     /\d/,
     /\d/,
@@ -12,13 +11,13 @@ export function mask(rawValue) {
     /\d/,
     /\d/,
     /\d/,
-  ]
+  ];
 }
 
 export function unmask(masked) {
   const rawValue = masked.replace(
     new RegExp(/-/),
-    ''
+    '',
   );
   return rawValue;
 }

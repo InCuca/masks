@@ -3,7 +3,7 @@ import {
   thousandsSeparatorSymbol,
   decimalSymbol,
   unmask as unmaskDecimal,
-  format as doFormat
+  format as doFormat,
 } from './decimalNumber';
 
 export const suffix = ' cm';
@@ -20,7 +20,7 @@ export const mask = createNumberMask({
 export function unmask(masked) {
   const rawValue = masked.replace(
     new RegExp(suffix),
-    ''
+    '',
   );
   return unmaskDecimal(rawValue);
 }

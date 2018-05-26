@@ -22,4 +22,4 @@ export default {
   phoneBr,
   cep,
   cnpj,
-}
+};

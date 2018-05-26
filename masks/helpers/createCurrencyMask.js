@@ -11,7 +11,7 @@ export default function createCurrencyMask(opts = {}) {
     allowLeadingZeroes: false,
   }, opts));
 
-  return rawValue => {
+  return (rawValue) => {
     const mask = numberMask(rawValue);
     const result = decimalsRegex.exec(rawValue);
     // In case there is only one decimal
@@ -24,4 +24,4 @@ export default function createCurrencyMask(opts = {}) {
 
     return mask;
   };
-};
+}

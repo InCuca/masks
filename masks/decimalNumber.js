@@ -16,11 +16,11 @@ export function unmask(masked) {
   let rawValue;
   rawValue = masked.replace(
     new RegExp(`\\${thousandsSeparatorSymbol}`, 'g'),
-    ''
+    '',
   );
   rawValue = rawValue.replace(
     new RegExp(`\\${decimalSymbol}`),
-    '.'
+    '.',
   );
 
   // not allow . without right numbers
