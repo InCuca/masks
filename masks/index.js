@@ -1,15 +1,17 @@
 // @create-index
 
-import * as areacm3 from './areacm3.js';
-import * as aream3 from './aream3.js';
-import * as centimeters from './centimeters.js';
-import * as decimalNumber from './decimalNumber.js';
-import * as usd from './usd.js';
-import * as kilograms from './kilograms.js';
-import * as meters from './meters.js';
-import * as phoneBr from './phoneBr.js';
-import * as cep from './cep.js';
-import * as cnpj from './cnpj.js';
+import * as areacm3 from './areacm3';
+import * as aream3 from './aream3';
+import * as centimeters from './centimeters';
+import * as decimalNumber from './decimalNumber';
+import * as usd from './usd';
+import * as kilograms from './kilograms';
+import * as meters from './meters';
+import * as phoneBr from './phoneBr';
+import * as cep from './cep';
+import * as cnpj from './cnpj';
+import * as brl from './brl';
+import * as brlSymbol from './brlSymbol';
 
 export default {
   areacm3,
@@ -17,6 +19,8 @@ export default {
   centimeters,
   decimalNumber,
   usd,
+  brl,
+  brlSymbol,
   kilograms,
   meters,
   phoneBr,
