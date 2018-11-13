@@ -1,3 +1,39 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/InCuca/masks/compare/v1.4.0...v1.5.0) (2018-11-13)
+
+
+### Bug Fixes
+
+* **createNumberMask:** fix not returning mask ([f71e9d5](https://github.com/InCuca/masks/commit/f71e9d5))
+
+
+### Features
+
+* **brl:** add brl and brlSymbol, plus masks index spec ([2d3fce1](https://github.com/InCuca/masks/commit/2d3fce1))
+* **codeclimate:** add settings file ([76bdd8d](https://github.com/InCuca/masks/commit/76bdd8d))
+* **project:** add eslint and fix lint errors ([4616b8a](https://github.com/InCuca/masks/commit/4616b8a))
+* **travis:** add codeclimate integration ([bc5370d](https://github.com/InCuca/masks/commit/bc5370d))
+
+
+
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/InCuca/masks/compare/v1.4.0...v1.5.0) (2018-11-13)
+
+
+### Bug Fixes
+
+* **createNumberMask:** fix not returning mask ([f71e9d5](https://github.com/InCuca/masks/commit/f71e9d5))
+
+
+### Features
+
+* **brl:** add brl and brlSymbol, plus masks index spec ([2d3fce1](https://github.com/InCuca/masks/commit/2d3fce1))
+* **codeclimate:** add settings file ([76bdd8d](https://github.com/InCuca/masks/commit/76bdd8d))
+* **project:** add eslint and fix lint errors ([4616b8a](https://github.com/InCuca/masks/commit/4616b8a))
+* **travis:** add codeclimate integration ([bc5370d](https://github.com/InCuca/masks/commit/bc5370d))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/InCuca/masks/compare/v1.3.0...v1.4.0) (2018-04-06)
 
